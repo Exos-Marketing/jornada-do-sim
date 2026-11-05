@@ -1,0 +1,45 @@
+{
+  "_como_usar": "Modelos de WhatsApp na voz da expert. Os campos entre chaves vêm do config do projeto (bloco 'mensagens'); o que faltar aparece entre colchetes, para o suporte completar antes de enviar. O Cleber aprova os textos uma vez, na configuração.",
+  "chegada": {
+    "titulo": "Chegada sem acesso confirmado",
+    "quando": "Comprou há até 30 dias e ainda não aparece com acesso na planilha. Ligar até quarta; se não atender, enviar a mensagem.",
+    "mensagem": "Oi, {primeiro_nome}! Aqui é a {expert_curto}. Que alegria ter você na {produto_curto}! Passando para saber se você já conseguiu assinar o contrato e fazer o primeiro acesso. Se travou em alguma etapa, me responde aqui que a minha equipe te ajuda hoje mesmo. {passo_a_passo}",
+    "roteiro_ligacao": [
+      "Apresente-se: \"Oi, {primeiro_nome}, aqui é [seu nome], da equipe da {expert_curto}.\"",
+      "Pergunte se ela já assinou o contrato da Anhanguera e se já entrou na plataforma.",
+      "Se não entrou: faça o passo a passo junto, na ligação ({passo_a_passo}).",
+      "Combine o primeiro resultado da primeira semana: {primeiro_resultado}.",
+      "Anote na planilha: Contato em, Resultado (entrou / vai entrar / sem resposta / problema) e Anotações."
+    ]
+  },
+  "nunca_entrou": {
+    "titulo": "Nunca entrou (base)",
+    "quando": "Matriculada há mais de 30 dias e nunca acessou, ou com contrato pendente.",
+    "mensagem": "Oi, {primeiro_nome}! Aqui é a {expert_curto}. Vi que você ainda não começou a {produto_curto}, e eu quero muito te ver lá dentro. O primeiro passo leva poucos minutos: {passo_a_passo}. Qualquer dificuldade, me responde aqui."
+  },
+  "mudou_de_cor": {
+    "titulo": "Mudou de cor",
+    "quando": "Piorou desde a semana anterior (por exemplo, de verde para laranja). Agir na mesma semana.",
+    "mensagem": "Oi, {primeiro_nome}! Aqui é a {expert_curto}. Senti sua falta nas aulas nos últimos dias. Está tudo bem por aí? Me conta como eu posso te ajudar a retomar o seu ritmo."
+  },
+  "resgate": {
+    "titulo": "Vermelhos · resgate individual",
+    "quando": "Quase não usou e sumiu. Contato um a um, de preferência por ligação.",
+    "mensagem": "Oi, {primeiro_nome}! Aqui é a {expert_curto}. Faz um tempo que você não aparece na {produto_curto}, e eu queria entender o que aconteceu. Posso pedir para alguém da minha equipe te ligar e montar com você um plano de retomada?"
+  },
+  "estimulo": {
+    "titulo": "Laranjas · estímulo imediato",
+    "quando": "Usava bem e parou. Trazer de volta antes que esfrie de vez.",
+    "mensagem": "Oi, {primeiro_nome}! Aqui é a {expert_curto}. Você estava indo super bem e deu uma pausa nos últimos dias. {rotina} Que tal voltar por ali? Estou te esperando."
+  },
+  "habito": {
+    "titulo": "Amarelos · criar o hábito",
+    "quando": "Entra, mas pouco, ou ainda não concluiu disciplina. Ajudar a criar a rotina.",
+    "mensagem": "Oi, {primeiro_nome}! Aqui é a {expert_curto}. Uma dica para engrenar: reserve um horário fixo na semana para a {produto_curto}. Meta da semana: {primeiro_resultado}."
+  },
+  "reconhecimento": {
+    "titulo": "Verdes · reconhecer",
+    "quando": "No ritmo ou adiantada. Reconhecer e convidar para depoimento.",
+    "mensagem": "Oi, {primeiro_nome}! Aqui é a {expert_curto}. Que orgulho ver o seu ritmo na {produto_curto}! Você toparia gravar um depoimento curto contando como está sendo?"
+  }
+}

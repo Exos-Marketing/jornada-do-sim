@@ -1,0 +1,42 @@
+{
+  "projeto": "[SIGLA][POS]",
+  "titulo": "Pós ... · Nome da Expert",
+  "expert": "Nome da Expert",
+  "produto": "Pós-Graduação em ...",
+  "produto_curto": "Pós em ...",
+  "tipo": "pos",
+  "prazo_acesso_dias": 3,
+  "janela_chegada_dias": 30,
+  "planilha_velha_dias": 8,
+  "anhanguera": {
+    "arquivo_padrao": "Nome-da-Pos*.xlsx",
+    "n_disciplinas": 9,
+    "duracao_dias": 364,
+    "nota_minima": 70,
+    "excluir_ids": [],
+    "excluir_emails": [],
+    "dominios_internos": []
+  },
+  "vendas": {
+    "tmb": {"produtos": []},
+    "voomp": {"produtos": [], "desde": "2026-01-01"},
+    "leituras_acompanhar_vendas": ""
+  },
+  "coortes": [
+    {"id": "turma-1", "nome": "Nome da turma", "inicio": "AAAA-MM-DDTHH:MM", "fim": "AAAA-MM-DD"}
+  ],
+  "contato": {"time": "Suporte (nome), em nome da expert", "responsaveis": [], "clickup_marcar": [], "emails_drive": []},
+  "entrega": {
+    "clickup_canal_id": "",
+    "clickup_canal_nome": "",
+    "drive_pasta_nome": "Jornada do Sim",
+    "drive_planilha_id": null
+  },
+  "mensagens": {
+    "expert_curto": "",
+    "passo_a_passo": "",
+    "primeiro_resultado": "",
+    "rotina": "",
+    "link_acesso": ""
+  }
+}
